@@ -12,7 +12,6 @@ rules:
   prefer-rest-params: off
   prefer-spread: off
   no-warning-comments: error
-  react/jsx-filename-extension: off
   import/no-extraneous-dependencies: off
   react/require-default-props: off
   import/no-named-as-default: off
