@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import AppBar from 'material-ui/AppBar';
 import logo from './logo.svg';
 import './App.css';
 const firebase = require("firebase");
@@ -10,9 +12,9 @@ require("firebase/firestore");
 * must provide API Key
 */
 var config = {
-  apiKey: "<ApiKey>",
-  authDomain: "<Project-ID>.firebaseapp.com",
-  projectId: "<Project-ID>-b8421",
+  apiKey: "AIzaSyAJLQueePRWUhIs5oJTd9HxP9AJAdlWbZw",
+  authDomain: "devfest-b8421.firebaseapp.com",
+  projectId: "devfest-b8421",
 };
 firebase.initializeApp(config);
 var db = firebase.firestore();
@@ -105,7 +107,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <MuiThemeProvider>
+        <AppBar
+          title="My Friends"
+        />
         {this.state.data && Object.keys(this.state.data).map((country, i) => {
           return [
             <ul key={i+country}>
@@ -137,7 +142,7 @@ class App extends Component {
             Latitude: <input value={this.state.latitudeInput} type="text" id="latitudeInput" onChange={this.handleChange}/>
             <input type="submit" value="Submit" />
           </form>
-      </div>
+      </MuiThemeProvider>
     );
   }
 }
