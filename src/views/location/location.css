@@ -1,0 +1,20 @@
+.leaflet-container {
+  height: 450px;
+  width: 100%;
+  z-index: 10;
+  background: rgb(209, 213, 215);
+}
+.leaflet-top .leaflet-control {
+  margin-top: 5px !important;
+}
+
+.leaflet-bottom .leaflet-control {
+    margin-bottom: 5px !important;
+}
+.leaflet-bottom .leaflet-control-attribution {
+    margin-bottom: 0px !important;
+}
+
+.leaflet-control {
+  margin-right: 5px !important;
+}
