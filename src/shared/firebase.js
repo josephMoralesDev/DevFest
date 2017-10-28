@@ -8,7 +8,7 @@ require('firebase/firestore');
 * must provide API Key
 */
 const config = {
-  apiKey: '<ApiKey>,
+  apiKey: '<ApiKey>',
   authDomain: '<Project-ID>.firebaseapp.com',
   projectId: '<Project-ID>',
 };
