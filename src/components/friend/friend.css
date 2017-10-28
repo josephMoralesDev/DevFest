@@ -1,0 +1,20 @@
+.friend{
+  padding: 0.5rem;
+  width: 40rem;
+}
+.friend h2 {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.friend .friend-info{
+  margin: 1rem;
+}
+.friend .friend-info .title{
+  font-size: 1.3rem
+}
+.friend .friend-info .title .fa{
+  padding-right: 0.5rem;
+}
+.friend .friend-info .item {
+  padding-left: 0rem;
+}
