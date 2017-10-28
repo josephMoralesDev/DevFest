@@ -21,12 +21,15 @@ Usage Firebase with Firestore
 
 Usage React
 ===========
-1.  Clone the repo (Get it from above) 
-2.  `nvm use` (Make sure to have nvm. You will need node 8.0.0)
-3.  `npm install` (Install all the fun packages)
-4.  Within react-firestorm/src/App.js replace the following within the config variable:
+1.  [Install Git] (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2.  Clone the repo (Get it from above) 
+3.  Install npm (https://nodejs.org/en/download/)
+4.  Install nvm (npm install nvm)
+3.  `nvm use` (Make sure to have nvm. You will need node 8.0.0)
+4.  `npm install` (Install all the fun packages or Yarn)
+5.  Within react-firestorm/src/shared/firebase.js replace the following within the config variable:
   * `<ApiKey>`
   * `<Project-ID>`
   (You should be able to find these in your app settings in the firebase console)
-4.  `npm start` (Enjoy!)
+6.  `npm start` (Enjoy!)
   
