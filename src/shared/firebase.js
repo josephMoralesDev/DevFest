@@ -8,9 +8,9 @@ require('firebase/firestore');
 * must provide API Key
 */
 const config = {
-  apiKey: 'AIzaSyAJLQueePRWUhIs5oJTd9HxP9AJAdlWbZw',
-  authDomain: 'devfest-b8421.firebaseapp.com',
-  projectId: 'devfest-b8421',
+  apiKey: '<ApiKey>,
+  authDomain: '<Project-ID>.firebaseapp.com',
+  projectId: '<Project-ID>',
 };
 
 let db = null;
